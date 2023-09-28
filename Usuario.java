@@ -1,17 +1,17 @@
 public class Usuario {
     String nome;
     String email;
-    double investimento;
+    double investimentos;
     double orcamento;
-    double meta;
+    double metas;
     String conta;
 
-    public Usuario(String nome, String email, double investimento, double orcamento, double meta, String conta){
+    public Usuario(String nome, String email, double investimentos, double orcamento, double metas, String conta){
         this.nome = nome;
         this.email = email;
-        this.investimento = investimento;
+        this.investimentos = investimentos;
         this.orcamento = orcamento;
-        this.meta = meta;
+        this.metas = metas;
         this.conta = conta;
     }
 }
